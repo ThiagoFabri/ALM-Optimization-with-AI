@@ -5,7 +5,7 @@ Projeto de otimização do Application Lifecycle Management (ALM) com Machine Le
 Este projeto simula um pipeline de ALM corporativo (Application Lifecycle Management) no contexto de Global Business Services (GBS).
 O objetivo é mostrar como aplicar ciência de dados e machine learning para aumentar a eficiência e reduzir riscos em ambientes de TI críticos, como bancos e grandes empresas.
 
-A solução abrange:
+# A solução abrange:
 
 Geração de dados sintéticos realistas sobre deploys (commits, bugs, cobertura de testes, vulnerabilidades etc.).
 
@@ -25,7 +25,7 @@ Visualização de dados e storytelling analítico.
 
 Aplicação prática de IA em cenários de negócio (ex: operações bancárias e corporativas).
 
-🧩 Estrutura
+# 🧩 Estrutura
 alm-optimization-ml/
 │── app/                 # Dashboard em Streamlit
 │── configs/             # Arquivos de configuração (YAML)
@@ -48,7 +48,7 @@ insights.py → cria insights semanais automáticos + gráfico de importância d
 
 streamlit_app.py → dashboard interativo.
 
-#⚙️ Instalação
+# ⚙️ Instalação
 
 Crie e ative um ambiente virtual:
 
@@ -59,7 +59,7 @@ Instale as dependências:
 
 pip install -r requirements.txt
 
-#🚀 Uso
+# 🚀 Uso
 
 Gerar dados sintéticos
 
@@ -85,7 +85,7 @@ Dashboard interativo
 
 streamlit run app/streamlit_app.py
 
-#📊 Exemplo de saída
+# 📊 Exemplo de saída
 
 Métricas: ROC-AUC, Average Precision, Classification Report.
 
@@ -95,7 +95,7 @@ Insights semanais: texto resumido para gestores.
 
 Dashboard: KPIs, histograma de risco, top-50 releases, importância de variáveis.
 
-#🌟 Extensões possíveis
+# 🌟 Extensões possíveis
 
 Conectar com dados reais de GitHub Actions, Jenkins ou Jira.
 
@@ -105,7 +105,7 @@ Criar módulo de clusterização de releases via PCA + KMeans (mapa 2D).
 
 Publicar no Streamlit Cloud ou Hugging Face Spaces.
 
-#👤 Autor
+# 👤 Autor
 
 Thiago Fabri de Oliveira
 📧 thiagofabridoliveira@gmail.com
