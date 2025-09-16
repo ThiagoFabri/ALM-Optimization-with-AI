@@ -54,9 +54,6 @@ Crie e ative um ambiente virtual:
 
 py -m venv .venv
 .\.venv\Scripts\activate   # Windows
-# ou
-source .venv/bin/activate  # Linux/Mac
-
 
 Instale as dependências:
 
