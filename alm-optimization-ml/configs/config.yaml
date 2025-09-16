@@ -1,0 +1,17 @@
+seed: 42
+target: deploy_failed
+test_size: 0.2
+model:
+  type: gradient_boosting  # options: 'logistic_regression' | 'gradient_boosting' | 'xgboost'
+  params:
+    n_estimators: 200
+    learning_rate: 0.08
+    max_depth: 3
+    random_state: 42
+    subsample: 0.9
+paths:
+  data: data/synthetic_release_log.csv
+  model: data/model.pkl
+  metrics: data/metrics.json
+  importance_plot: data/feature_importance.png
+  predictions: data/predictions.csv
