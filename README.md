@@ -48,7 +48,7 @@ insights.py → cria insights semanais automáticos + gráfico de importância d
 
 streamlit_app.py → dashboard interativo.
 
-⚙️ Instalação
+#⚙️ Instalação
 
 Crie e ative um ambiente virtual:
 
@@ -59,7 +59,7 @@ Instale as dependências:
 
 pip install -r requirements.txt
 
-🚀 Uso
+#🚀 Uso
 
 Gerar dados sintéticos
 
@@ -85,7 +85,7 @@ Dashboard interativo
 
 streamlit run app/streamlit_app.py
 
-📊 Exemplo de saída
+#📊 Exemplo de saída
 
 Métricas: ROC-AUC, Average Precision, Classification Report.
 
@@ -95,7 +95,7 @@ Insights semanais: texto resumido para gestores.
 
 Dashboard: KPIs, histograma de risco, top-50 releases, importância de variáveis.
 
-🌟 Extensões possíveis
+#🌟 Extensões possíveis
 
 Conectar com dados reais de GitHub Actions, Jenkins ou Jira.
 
@@ -105,11 +105,12 @@ Criar módulo de clusterização de releases via PCA + KMeans (mapa 2D).
 
 Publicar no Streamlit Cloud ou Hugging Face Spaces.
 
-👤 Autor
+#👤 Autor
 
 Thiago Fabri de Oliveira
 📧 thiagofabridoliveira@gmail.com
 
 🔗 LinkedIn
-
+https://www.linkedin.com/in/thiago-fabri/
 🔗 GitHub
+https://github.com/ThiagoFabri
