@@ -11,8 +11,6 @@ Geração de dados sintéticos realistas sobre deploys (commits, bugs, cobertura
 
 Modelos de ML supervisionados (Logistic Regression, Gradient Boosting, XGBoost) para prever falhas em deploys.
 
-Agente de IA que produz insights semanais automatizados, destacando módulos e ambientes mais críticos.
-
 Dashboard em Streamlit para acompanhamento executivo, com KPIs, ranking de risco e importância de variáveis.
 
 Este repositório foi estruturado como um portfólio para demonstrar habilidades em:
@@ -76,7 +74,7 @@ Inferência (ranking de risco)
 python src/infer.py --top_k 20
 
 
-Insights semanais automáticos
+Dados Gerais
 
 python src/insights.py
 
